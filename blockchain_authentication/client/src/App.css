@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    color: #232222;
+}
+
+/*=============== App file ===============*/
+/* .Auth_app{
+    display: block;
+    max-width: 100%;
+    height: auto;
+} */
+
+/*=============== Header content ===============*/
+.header_content{
+    background-color: transparent;
+    font-size: 15px;
+    color: #0d161a;
+    width: 100%;
+    height: 120px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.669);
+    border-radius:5px;
+
+}
+
+
+/*=============== Navigation bar ===============*/
+.navigation_bar{
+    background-color: #253050;
+    overflow: hidden;
+    color: #0a4b67;
+    padding: 5px 10px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation_bar button{
+    text-decoration: none;
+    font-size: 15px;
+    color: #0a4b67;
+    padding: 8px 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+.nav_butt {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+#homeB{
+    float: left;
+    margin-right: auto;
+}
+#signUpB, #loginB{
+    float: right;
+    margin-left: 10px;
+}
+#title{
+    flex: 1;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+.header_content, .navigation_buttons{
+    position: relative;
+}
+
+/*=============== Home Page ===============*/
+/* .home_content{
+    padding: 20px 20px;
+    
+} */
+.home_content h1{
+    font-family: "Constantia";
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.home_content h3{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.top_cnt{
+    text-align: center;
+    padding: 120px 20px;
+    background-image: url("technology-7111755_1920.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    
+    
+}
+.top_cnt h1{
+    font-size: 40px;
+
+}
+.top_cnt p{
+    font-size: 20px;
+}
+.def1, .def2, .def3{
+    color: #2e2727;
+    font-size: 15px;
+}
+.def1{
+    text-align: left;
+    padding: 50px 20px;
+    background-image: linear-gradient(to right, #9be9b5, #253050);
+    
+}
+.def2{
+    text-align: left;
+    color: #fff;
+    padding: 120px 20px;
+    background-image: url("technology-7111756_1920.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.def3{
+    text-align: left;
+    padding: 20px 20px;
+    
+}
+
+.container{
+    
+    background: #f0efe7ae;
+    color: #005859;
+    padding: 50px 15px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.container2{
+    
+    background-image: linear-gradient(to right, #253050, #c4878f);
+    color: #eed7d3;
+    padding: 90px 15px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.section {
+    list-style: none;
+    padding: 60px 20px;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #1c4659;
+    background-color: #92d1a7;
+}
+
+
+.benefits {
+    background-image: linear-gradient(to bottom, #253050, #c4878f);
+    padding: 50px 20px;
+    color: #ebcdcd;
+}
+
+.features{
+    display: inline-flex;
+    gap: 30px;
+    justify-content: center; 
+    
+}
+.features-item {
+    flex: 1 1 45%;
+    max-width: 400px;
+    background: #f0efd7;
+    color: #033e3f;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.benefit-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.benefit-item {
+    flex: 1 1 45%;
+    max-width: 400px;
+    background: #faf8d1;
+    color: #005859;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.section_use-cases{
+    font-size: 15px;
+    padding: 40px 20px;
+    background-image: linear-gradient(to bottom, #9be9b5, #253050);
+}
+.use-cases-list {
+    display: inline-flex;
+    gap: 30px;
+    justify-content: center; 
+    padding-bottom: 50px;
+}
+
+.use-cases-list li {
+    list-style: none;
+    flex: 1 1 45%;
+    max-width: 400px;
+    background: #faf8d1;
+    color: #005859;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+
+/*=============== New User ===============*/
+
+.new_user {
+    text-align: center;
+    margin-bottom: 20px;
+    /* background: linear-gradient(to right, #253050, #c4878f); */
+    background-image: url("technology-7111756_1920.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    padding: 10px;
+    color: #fff;
+} 
+.new_user h1{
+    font-size: 30px;
+}
+
+.details_container {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    background-color: #ffffffbe;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 650px;
+    margin: auto;
+    min-height: 300px; 
+    justify-content: space-between;
+   
+}
+
+.details_container h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.newuser_details {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+
+.user_details, .general_details {
+    flex: 1;
+}
+
+.user_details{
+    border-left: 2px solid #333;
+    padding-left: 20px;
+}
+
+label {
+    font-size: 15px;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"], input[type="password"], input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.new_user button {
+    background-color: #253050;
+    color: #fff;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    align-self: center; 
+    margin-top: auto; 
+}
+
+button:hover {
+    background-color: #438fe0;
+}
+
+
+.det2 {
+    margin-top: 20px;
+    padding: 10px 10px;
+    background-color: #e9f7ef;
+    border: 1px solid #d4edda;
+    border-radius: 5px;
+    color: #155724;
+}
+
+.det2 h3 {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+/*=============== Login page ===============*/
+
+.login{
+    text-align: center;
+    margin-bottom: 20px;
+    /* background: linear-gradient(to right, #253050, #c4878f); */
+    background-image: url("technology-7111755_1920.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding: 10px;
+    color: #fff;
+}
+
+.login_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffffbe;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.324);
+    max-width: 500px;
+    margin: auto;
+    min-height: 300px; /* Adjust height as needed */
+    justify-content: space-between;
+}
+
+.login_container h1{
+    font-size: 25px;
+    color: #253050;
+}
+
+.login_container button{
+    background-color: #253050;
+    color: #fff;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    align-self: center;
+    
+}
+
+.user_page{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: #ffffffbe;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: auto;
+    min-height: 300px; 
+    justify-content: space-between;
+}
+.user_page h2{
+    font-size: 20px;
+    color: #253050;
+}
+.user_page button{
+    background-color: #253050;
+    color: #fff;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    align-self: center; 
+    margin-top: auto;
+}
+
+
+
