@@ -32,9 +32,13 @@ Traditional authentication systems rely on centralized servers, which are prone 
 | **HTML/CSS** | Styling the front-end |
 
 # 📸 Screenshots
-| Sign Up Page                      | Blockchain Output                    |
-| --------------------------------- | ------------------------------------ |
-| ![signup](screenshots/signup.png) | ![block](screenshots/blockchain.png) |
+Sign Up Page
+
+![signup](screenshots/signup.jpg)
+
+Login Page     
+
+![login](screenshots/login.jpg)
 
 # 📌 Future Enhancements
 
